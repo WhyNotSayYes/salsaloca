@@ -81,6 +81,37 @@ h1 {
     width: 800px;
     margin: 0 auto;
 }
+/*=======================================HEADER=======================================*/
+.swiper {
+    width: 800px;
+    height: 600px;
+}
+.swiper-slide {
+    background: rgb(99, 99, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+
+}
+
+.image-slider__image img {
+    max-width: 50%;
+}
+button {
+    font-size: 14px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
 .fa {
     margin-right: 30px;
 }
