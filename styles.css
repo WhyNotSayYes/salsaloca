@@ -99,6 +99,9 @@ h1 {
 .swiper-button-next::after {
 
 }
+.swiper-pagination {
+    bottom: 0px;
+}
 
 .image-slider__image img {
     max-width: 50%;
