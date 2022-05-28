@@ -101,7 +101,7 @@ h1 {
     min-height: 110px;
     align-items: center;
     margin: 15px auto 0 auto;
-    padding-bottom: 200px; /*временно, пока не решувопрос с "наплывом" выпадающего меню на контент (поиграться с position:absolute/relative)*/
+    /* padding-bottom: 200px; временно, пока не решувопрос с "наплывом" выпадающего меню на контент (поиграться с position:absolute/relative) */
 }
 .header__logo {
 }
@@ -130,6 +130,7 @@ h1 {
     display: none;
     position: absolute;
 }
+
 .sub-menu__item {
     width: 204px;
 }
@@ -145,6 +146,12 @@ h1 {
 }
 .menu__item:hover .sub-menu__list {
     display: block;
+}
+.sub-menu__list .sub-menu__item {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 0;
 }
 /*=======================================MAIN=======================================*/
 .page__container {}
