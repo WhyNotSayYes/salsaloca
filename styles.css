@@ -74,49 +74,12 @@ h1 {
     height: 4px;
 }
 .slider {
-    background: rgb(206, 130, 130);
-    font-size: 48px;
-    text-align: center;
-    height: 300px;
-    width: 800px;
-    margin: 0 auto;
-}
-/*=======================================HEADER=======================================*/
-.swiper {
-    width: 800px;
-    height: 600px;
-}
-.swiper-slide {
-    background: rgb(99, 99, 99);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    text-align: center;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-
-}
-.swiper-pagination {
-    bottom: 0px;
-}
-
-.image-slider__image img {
-    max-width: 50%;
-}
-button {
-    font-size: 14px;
-    color: aliceblue;
-    background-color: rgb(0, 0, 0);
-    padding: 10px 30px;
-    border-radius: 30px;
-    border: 2px solid rgb(255, 255, 255);
-}
-
-.fa {
-    margin-right: 30px;
+    /* background: rgb(206, 130, 130); */
+    /* font-size: 48px;
+    text-align: center; */
+    /* height: 600px;
+    width: 800px; */
+    /* margin: 0 auto; */
 }
 
 /*=======================================HEADER=======================================*/
@@ -202,6 +165,50 @@ button {
 .page__directions .slider {
     margin: 100px auto 0 auto;
 }
+.slider {
+}
+/*=======================================DIRECTIONS-SLIDER=======================================*/
+.swiper {
+    width: 100%;
+    min-height: 400px;
+    margin: 120px 0 0 0;
+}
+.mySwiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    text-align: center;
+}
+.slide-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(100, 100, 100, 0.53);
+    border: 1px solid #ffffff;
+    box-shadow: 5px 5px 40px rgba(81, 64, 117, 0.49);
+    border-radius: 5px;
+}
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+.swiper-button-next {
+}
+.swiper-button-prev {
+}
+.swiper-pagination {
+}
+/*===============================*/
+.fa {
+    margin-right: 30px;
+}
+
 /*=======================================ABOUT=======================================*/
 .page__about {
     margin: 100px 0 0 0;
