@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Kosugi:regular&display=swap" rel="stylesheet" />
@@ -67,7 +68,38 @@
                         <h1>наши тацевальные направления</h1>
                         <img src="img/line-title.png" alt="line-title">
                     </div>
-                    <div class="directions slider">Я СЛАЙДЕР</div>
+                    <div class="directions slider">
+                        <!----------------------slider------------------------------>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="/img/slide/Salsa 1.png" alt="Картинка">
+                                        <h2>Сальса</h2>
+                                        <button>Узнать подробнее</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="/img/slide/Bachata 1.png" alt="Картинка">
+                                        <h2>Бачата</h2>
+                                        <button>Узнать подробнее</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="/img/slide/Kizomba 1.png" alt="Картинка">
+                                        <h2>Кизомба</h2>
+                                        <button>Узнать подробнее</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!---------------------slider------------------------------>
+                    </div>
                 </div>
                 <div class="page__about">
                     <div class="page__ title">
@@ -165,5 +197,9 @@
                 </div>
         </footer>
     </div>
+    <!--scripts for swiper-->
+    <script src="/css/script.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="/script.js"></script>
 </body>
 </html>
