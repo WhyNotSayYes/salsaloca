@@ -93,6 +93,7 @@ h1 {
 .header__banner img {
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 .header__banner_shapes-left {
@@ -205,15 +206,6 @@ h1 {
     letter-spacing: 9px;
     font-size: 72px;
 }
-/* .main__title:after {
-    content: attr(data-content);
-    left: 3%;
-    top: 40%;
-    transform: scaleY(-1) skew(-30deg);
-    position: absolute;
-    font-style: oblique;
-    font-size: 70px;
-} */
 .main__subtitle {
     font-weight: 500;
     font-size: 30px;
