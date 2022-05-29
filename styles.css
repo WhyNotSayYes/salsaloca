@@ -84,14 +84,36 @@ h1 {
 
 /*=======================================HEADER=======================================*/
 .header {}
-.header__all {}
-.header__image {
-    background: grey;
-    background-size: cover;
-    height: 302px;
-    font-size: 48px;
+.header__all {
+}
+
+/*---Banner---*/
+.header__banner {
+}
+.header__banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header__banner_shapes-left {
+}
+.header__banner_shapes-right {
+}
+.header__banner_title {
     text-align: center;
 }
+.header__banner_title p {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+}
+.header__banner_title h2 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+}
+
 /*=======================================HEADER-NAV=======================================*/
 .header__container {
     display: flex;
@@ -153,10 +175,50 @@ h1 {
 /*=======================================MAIN=======================================*/
 .page__container {}
 .page__main {
-    background: rgba(203, 32, 218, 0.25);
-    height: 300px;
-    font-size: 48px;
-    text-align: center;
+    display: flex;
+}
+.main__column {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 52px 0 0 0;
+}
+.main__column > *:not(:last-child) {
+    padding: 0 0 86px 0;
+}
+.main__title {
+    font-family: 'Roboto';
+    font-size: 80px;
+    line-height: 118%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+}
+.main__subtitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.main__button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 119%;
+    background: linear-gradient(95deg, #FE134B 46%, #D60755 93.5%);
+    box-shadow: 6px 19px 60px rgba(254, 19, 75, 0.5);
+    border-radius: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 290px;
+    padding: 15px 50px;
+}
+.button-main {
+
+}
+.main__dancer {
+    flex: 0 1 50%;
+    margin: 38px 0 0 0;
 }
 /*=======================================DIRECTIONS=======================================*/
 .page__directions {
