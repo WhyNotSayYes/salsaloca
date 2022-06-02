@@ -44,7 +44,7 @@
                             </ul>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">О нас</a>
+                            <a href="#popup-window" class="menu__link">О нас</a>
                         </li>
                         <li class="menu__item">
                             <a href="#" class="menu__link">Контакты</a>
@@ -70,7 +70,7 @@
                     <div class="main__column">
                         <h3 data-content="Salsa Loca" class="main__title">Salsa Loca</h3>
                         <div class="main__subtitle">Танцевать - это просто, попробуй прямо сейчас!</div>
-                        <div class="main__button button-main">
+                        <div id="btn" class="main__button button-main">
                             НАЧАТЬ ТАНЦЕВАТЬ
                         </div>
                     </div>
@@ -193,9 +193,9 @@
                     </div>
                     <div class="form">
                         <p>Остались вопросы?</p>
-                        <input type="text" placeholder="Имя*"><br>
-                        <input type="text" placeholder="Телефон*"><br>
-                        <input type="text" placeholder="E-mail*"><br>
+                        <input class="input_footer" type="text" placeholder="Имя*"><br>
+                        <input class="input_footer" type="text" placeholder="Телефон*"><br>
+                        <input class="input_footer" type="text" placeholder="E-mail*"><br>
                         <button class="button-form">Отправить</button>
                     </div>
                     <div class="map">
@@ -208,9 +208,142 @@
                 </div>
         </footer>
     </div>
-    <!--scripts for swiper-->
-    <!-- <script src="/css/script.js"></script> -->
+
+    <!-- POPUPS -->
+        <!-- Directions -->
+    <div id="popup-window" class="popup__directions directions-bachata">
+        
+            <div class="popup__directions_body">
+                <div class="popup__directions_content">
+                    <a href="#" class="popup__close"><img src="img/close.png" alt=""></a>
+                    <div class="popup__directions_container">
+                        <div class="popup__directions_title">
+                            БАЧАТА
+                        </div>
+                        <div class="popup__directions_descr">
+                            <div class="directions_descr descr-text">
+                                Бачата медленный и романтичный танец... Описание бачаты....
+                            </div>
+                            <div class="directions_descr descr-photo">
+                                <img src="img/popups/directions/popup-bachata.png" alt="bachata">
+                            </div>
+                        </div>
+                        <div class="popup__directions_tabs">
+                            <div class="directions__tab_button is-active" data-tab-name="tab-1">НАЧИНАЮЩИЙ УРОВЕНЬ</div>
+                            <div class="directions__tab_button" data-tab-name="tab-2">СРЕДНИЙ УРОВЕНЬ</div>
+                            <div class="directions__tab_button" data-tab-name="tab-3">ПРОДВИНУТЫЙ УРОВЕНЬ</div>
+                        </div>
+                        <div class="popup__directions_levels-body">
+                            <div class="direction__level tab-1 is-active">
+                                <div class="direction__level_title">
+                                    НАЧИНАЮЩИЙ УРОВЕНЬ
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Расписание занятий
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        пн/ср/пт  19:00
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Преподаватели курса
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        Алексей Осипов, Татьяна Ручко
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Стоимость абонемента
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        8 занятий - 1000 грн, разовое посещение - 200 грн
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="direction__level tab-2">
+                                <div class="direction__level_title">
+                                    СРЕДНИЙ УРОВЕНЬ
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Расписание занятий
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        вт/чт/сб  19:00
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Преподаватели курса
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        Алексей Осипов, Татьяна Ручко
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Стоимость абонемента
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        8 занятий - 1000 грн, разовое посещение - 200 грн
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="direction__level tab-3">
+                                <div class="direction__level_title">
+                                    ПРОДВИНУТЫЙ УРОВЕНЬ
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Расписание занятий
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        пн/ср/пт  19:00
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Преподаватели курса
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        Алексей Осипов, Татьяна Ручко
+                                    </div>
+                                </div>
+                                <div class="direction__level_row">
+                                    <div class="direction__level_column-1">
+                                        Стоимость абонемента
+                                    </div>
+                                    <div class="direction__level_column-2">
+                                        8 занятий - 1000 грн, разовое посещение - 200 грн
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#popup" id="btn2" class="popup__directions_button">Записаться на пробный урок</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+<!--Trial lesson by Freelancer-->
+    <div id="popup" class="popup">
+        <div class="popup__body"> 
+            <div class="popup__content">
+                <a href="#" class="popup__close-2"><img src="img/close.png" alt=""></a>
+                <div class="popup__title">Чтобы записаться на пробное занятие заполните, пожалуйста, форму</div>
+                <input type="text" placeholder="Введите имя" class="popup__input input-name">
+                <input type="tel" placeholder="Введите телефон" class="popup__input input-tel">
+                <button class="popup__button button-popup-send">Отправить</button>
+            </div>
+        </div>
+    </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="slider.js"></script>
+    <script src="tabs.js"></script>
+    <!-- <script src="popup.js"></script> -->
+
 </body>
 </html>
