@@ -721,100 +721,32 @@ h1 {
     visibility: visible;  
 }
 .popup__schedule_body {
-    min-height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .popup__schedule_content {
-    background: #000000;
-    border-radius: 15px;
-    box-shadow: 3px 3px 40px #ffffff5d;
-    max-width: 1156px;
-    padding: 29px 116px 83px 99px;
-    position: relative;
 }
 .popup__close-3 {
-    position: absolute;
-    top: 31px;
-    right: 37px;
 }
 .popup__schedule_container {
 }
 .popup__schedule_tabs {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0 23px 0;
 }
 .schedule__tab_button {
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    color: rgba(255, 255, 255, 0.6);
-    border-radius: 35px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 116.67%;
-    padding: 15px 40px 10px 40px;
-    text-align: center;
-    transition: .25s ease;
-    cursor: pointer;
-    width: 423px;
-}
-.schedule__tab_button:first-child {
-    margin: 0 5px 0 0;
-}
-.schedule__tab_button:last-child {
-    margin: 0 0 0 5px;
-}
-.schedule__tab_button:hover {
-    border: 1px solid rgb(255, 255, 255);
-    color: #ffffff;
-}
-.schedule__tab_button.is-active {
-    border: 1px solid rgb(255, 255, 255);
-    color: #ffffff;
 }
 .is-active {
-
 }
 .popup__schedule_adress1 {
-    border: 1px solid #FFFFFF;
-    border-radius: 35px;
 }
 .schedule__adress {
-    display: none;
-}
-.schedule__adress.is-active {
-    display: block;
 }
 .tab-1 {
 }
 .schedule__adress_row {
-    display: flex;
-    justify-content: space-between;
-    padding: 35px 20px 35px 20px;
-    border-bottom: 1px solid #ffffff;
-    width: 941px;
 }
 .schedule__adress_column-1 {
-    font-size: 16px;
 }
 .schedule__adress_column-2 {
-    font-size: 16px;
 }
 .tab-2 {
 }
 .popup__schedule_button {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    background: linear-gradient(93.26deg, #FE134B 1.2%, #FF003D 62.31%, #E80923 100%, #D60000 100%);
-    border-radius: 30px;
-    transition: .25s ease;
-    padding: 5px 24px;
-    margin: 87px auto 0;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    max-width: 265px;
 }

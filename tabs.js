@@ -1,6 +1,8 @@
 let tab = function () {
-    let tabNav = document.querySelectorAll('.directions__tab_button'),
-        tabContent = document.querySelectorAll('.direction__level'),
+    // let tabNav = document.querySelectorAll('.directions__tab_button'),
+    let tabNav = document.querySelectorAll('.tab-button'),
+        // tabContent = document.querySelectorAll('.direction__level'),
+        tabContent = document.querySelectorAll('.tab-content'),
         tabName;
 
         tabNav.forEach(item => {
