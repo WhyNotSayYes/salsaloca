@@ -616,7 +616,7 @@ h1 {
         box-shadow: 5px 15px 60px rgba(254, 19, 75, 0.5);
 }
 
-/*Trial lesson by Freelancer*/
+/*Trial lesson*/
 
 .popup {
     position: fixed;
@@ -792,8 +792,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 35px 20px 35px 20px;
-    border-bottom: 1px solid #ffffff;
     width: 941px;
+}
+.schedule__adress_row:not(:last-child){
+    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
 }
 .schedule__adress_column-1 {
     font-size: 16px;
