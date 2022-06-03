@@ -88,8 +88,10 @@ h1 {
     height: 100%;
 }
 .header__banner img {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    width: 100%;
+    height: 100%;
+    /* height: auto; */
     margin: 0 auto;
 }
 
@@ -779,6 +781,7 @@ h1 {
 .popup__schedule_adress1 {
     border: 1px solid #FFFFFF;
     border-radius: 35px;
+    width: 941px;
 }
 .schedule__adress {
     display: none;
@@ -791,8 +794,9 @@ h1 {
 .schedule__adress_row {
     display: flex;
     justify-content: space-between;
-    padding: 35px 20px 35px 20px;
-    width: 941px;
+    padding: 35px 20px 35px 11px;
+    margin: 0 0 0 9px;
+    width: 903px;
 }
 .schedule__adress_row:not(:last-child){
     border-bottom: 1px solid rgba(255, 255, 255, 0.22);
@@ -819,4 +823,8 @@ h1 {
     align-items: center;
     justify-content:center;
     max-width: 265px;
+    transition: .25s ease;
+}
+.popup__schedule_button:hover {
+    box-shadow: 1px 1px 60px rgba(254, 19, 75, 0.5);
 }
