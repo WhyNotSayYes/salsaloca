@@ -85,26 +85,29 @@
                         <img src="img/line-title.png" alt="line-title">
                     </div>
                         <!----------------------slider------------------------------>
-                        <div class="swiper mySwiper">
+                        <div class="swiper cardSwiper">
                             <div class="swiper-wrapper">
-                              <div data-hash="slide1" class="swiper-slide">
+                            <div data-hash="slide1" class="swiper-slide">
                                 <div class="slide-item">
                                     <img src="img/slide/Bachata 1.png" alt="">
                                     <div class="swiper__text">Бачата</div>
+                                    <button>Узнать подробнее</button>
                                 </div>
                                 </div>
-                              <div data-hash="slide2" class="swiper-slide">
+                            <div data-hash="slide2" class="swiper-slide">
                                 <div class="slide-item">
                                     <img src="img/slide/Kizomba 1.png" alt="">
                                     <div class="swiper__text">Кизомба</div>
+                                    <button>Узнать подробнее</button>
                                 </div>
-                              </div>
-                              <div data-hash="slide3" class="swiper-slide">
+                            </div>
+                            <div data-hash="slide3" class="swiper-slide">
                                 <div class="slide-item">
-                                    <img src="img/slide/Salsa-1.png" alt="">
+                                    <img src="img/slide/Salsa 1.png" alt="">
                                     <div class="swiper__text">Сальса</div>
+                                    <button>Узнать подробнее</button>
                                 </div>
-                              </div>
+                            </div>
                             </div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
@@ -157,16 +160,83 @@
                     <div class="page__about separator">
                         <img src="img/separator.png" alt="separator">
                     </div>
+                    <!---------------------slider2------------------------------>
                     <div class="page__about about_slider">
-                        Я СЛАЙДЕР!
+                        <div class="page__reviews slider">
+                            <div class="swiper teamSwiper">
+                                <div class="swiper-wrapper">
+                                <div data-hash="slide11" class="swiper-slide">
+                                    <div class="slide-item">
+                                        <img src="img/slide/lara 1.png" alt="">
+                                        <button class="about-button">лариса перешибкина</button>
+                                        <div class="swiper__text">текстс</div>
+                                    </div>
+                                    </div>
+                                <div data-hash="slide22" class="swiper-slide">
+                                    <div class="slide-item">
+                                        <img src="img/slide/tanya 1.png" alt="">
+                                        <button class="about-button">татьяна ручко</button>
+                                        <div class="swiper__text">текстс</div>
+                                    </div>
+                                </div>
+                                <div data-hash="slide33" class="swiper-slide">
+                                    <div class="slide-item">
+                                        <img src="img/slide/kiril 1.png" alt="">
+                                        <button class="about-button">кирилл аксеновский</button>
+                                        <div class="swiper__text">текстс</div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
                     </div>
+                    <!---------------------slider2------------------------------>
                 <div class="page__reviews">
                     <div class="page__reviews title">
                         <img src="img/line-title.png" alt="line-title">
                         <h1>ОТЗЫВЫ НАШИХ УЧЕНИКОВ</h1>
                         <img src="img/line-title.png" alt="line-title">
                     </div>
-                    <div class="page__reviews slider">Я СЛАЙДЕР</div>
+
+                    <!---------------------slider3------------------------------>
+                    <div class="page__about about_slider">
+                        <div class="page__reviews slider">
+                            <div class="swiper rewiev">
+                                <div class="swiper-wrapper">
+                                <div data-hash="slide111" class="swiper-slide">
+                                    <div class="rewiev-item">
+                                        <img src="img/slide/Ellipse 12.png" alt="">
+                                        <h2>Маша</h2>
+                                        <hr>
+                                        <div class="swiper__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam debitis eos hic ullam aspernatur earum, commodi minus ex autem in ipsam pariatur natus mollitia animi libero quasi, incidunt laborum! Ullam.</div>
+                                    </div>
+                                    </div>
+                                <div data-hash="slide222" class="swiper-slide">
+                                    <div class="slide-item">
+                                        <img src="img/slide/Ellipse 12.png" alt="">
+                                        <button class="about-button">маша</button>
+                                        <div class="swiper__text">текстс</div>
+                                    </div>
+                                </div>
+                                <div data-hash="slide333" class="swiper-slide">
+                                    <div class="slide-item">
+                                        <img src="img/slide/Ellipse 12.png" alt="">
+                                        <button class="about-button">маша</button>
+                                        <div class="swiper__text">текстс</div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------slider3------------------------------>
+
                 </div>
             </div>
         </main>
@@ -234,7 +304,7 @@
                             <div class="directions__tab_button tab-button" data-tab-name="tab-3">ПРОДВИНУТЫЙ УРОВЕНЬ</div>
                         </div>
                         <div class="popup__directions_levels-body">
-                            <div class="tab-content is-active direction__level tab-1">
+                            <div class="direction__level tab-content tab-1 is-active">
                                 <div class="direction__level_title">
                                     НАЧИНАЮЩИЙ УРОВЕНЬ
                                 </div>
@@ -263,7 +333,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-content direction__level tab-2">
+                            <div class="direction__level tab-content tab-2">
                                 <div class="direction__level_title">
                                     СРЕДНИЙ УРОВЕНЬ
                                 </div>
@@ -292,7 +362,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-content direction__level tab-3">
+                            <div class="direction__level tab-content tab-3">
                                 <div class="direction__level_title">
                                     ПРОДВИНУТЫЙ УРОВЕНЬ
                                 </div>
@@ -349,11 +419,11 @@
             <a href="#" class="popup__close-3"><img src="img/close.png" alt=""></a>
             <div class="popup__schedule_container">
                 <div class="popup__schedule_tabs">
-                    <div class="tab-button is-active schedule__tab_button" data-tab-name="tab-1">Плехановская, 4а</div>
+                    <div class="tab-button schedule__tab_button is-active" data-tab-name="tab-1">Плехановская, 4а</div>
                     <div class="tab-button schedule__tab_button" data-tab-name="tab-2">Космическая, 23</div>
                 </div>
                 <div class="popup__schedule_adress1">
-                    <div class="tab-content is-active schedule__adress tab-1">
+                    <div class="tab-content schedule__adress tab-1 is-active">
                         <div class="schedule__adress_row">
                             <div class="schedule__adress_column-1">
                                 Понедельник
@@ -417,7 +487,7 @@
                                 Охренельник
                             </div>
                             <div class="schedule__adress_column-2">
-                                другая информация
+                                информация
                             </div>
                         </div>
                         <div class="schedule__adress_row">
@@ -425,7 +495,7 @@
                                 Хуерник
                             </div>
                             <div class="schedule__adress_column-2">
-                                другая информация
+                                информация
                             </div>
                         </div>
                         <div class="schedule__adress_row">
@@ -433,7 +503,7 @@
                                 Среда
                             </div>
                             <div class="schedule__adress_column-2">
-                                другая информация
+                                информация
                             </div>
                         </div>
                         <div class="schedule__adress_row">
@@ -441,7 +511,7 @@
                                 Четверг
                             </div>
                             <div class="schedule__adress_column-2">
-                                другая информация
+                                информация
                             </div>
                         </div>
                         <div class="schedule__adress_row">
@@ -449,7 +519,7 @@
                                 Пятница
                             </div>
                             <div class="schedule__adress_column-2">
-                                другая информация
+                                информация
                             </div>
                         </div>
                         <div class="schedule__adress_row">
@@ -457,7 +527,7 @@
                                 Суббота
                             </div>
                             <div class="schedule__adress_column-2">
-                                другая информация
+                                информация
                             </div>
                         </div>
                         <div class="schedule__adress_row">
@@ -465,7 +535,7 @@
                                 Воскресенье
                             </div>
                             <div class="schedule__adress_column-2">
-                                другая информация
+                                информация
                             </div>
                         </div>
                     </div>
