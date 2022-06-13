@@ -325,7 +325,7 @@ h1 {
 .rewiev-icon {
     position: absolute;
     object-fit: cover;
-    background-image: url(/img/slide/Ellipse-12.png);
+    background-image: url(./img/slide/Ellipse-12.png);
     top: -25px;
     left: -40px;
     background-repeat: no-repeat;
